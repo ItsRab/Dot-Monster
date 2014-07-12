@@ -1,0 +1,187 @@
+// The specific header styles
+
+// The worst case, static image
+.header {
+    background: url("../../images/static-header.jpg") repeat-x center left transparent;
+    height: 230px;
+}
+
+.header__title {
+    color: $brand-red-darker;
+    font-size: 2em;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 2px #444;
+    top: 10px;
+    width: 100%;
+    z-index: 500;
+
+    @include bp-min(31.25em) { // 500px
+        font-size: 2.5em;
+    }
+
+    @include bp-min(45em) { // 720px
+        font-size: 3.5em;
+    }
+}
+
+.header--roller {
+    display: none;
+}
+
+// If we can, let’s make things better
+.cssanimations {
+
+    .header {
+        background: #d7e6ed;
+        height: 100px;
+        position: relative;
+
+        @include bp-min(45em) { // 720px
+            height: 173px;
+        }
+    }
+
+    .header__title {
+        color: #fff;
+    }
+
+    .illustrations {
+        height: 100px;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        @include bp-min(45em) { // 720px
+            height: 173px;
+        }
+    }
+
+    .header--clouds {
+        animation: clouds 100s linear infinite;
+        background: url("../../images/cloudssmall.png") repeat-x center center transparent;
+        height: 100px;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+
+        @media (max-width: 45em) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 45em) and (min-resolution: 144dpi)  {
+            background: url("../../images/cloudssmall@2x.png") repeat-x center left transparent;
+            background-size: 694px 100px;
+        }
+
+        @include bp-min(45em) { // 720px
+            background: url("../../images/clouds.png") repeat-x center left transparent;
+            height: 173px;
+        }
+
+        @media (min-width: 45em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 45em) and (min-resolution: 144dpi) {
+            background: url("../../images/clouds@2x.png") repeat-x center left transparent;
+            background-size: 1200px 173px;
+        }
+
+    }
+
+    .header--background {
+        background: url("../../images/landscapesmall.png") repeat-x center left transparent;
+        background-size: 694px 100px;
+        height: 100px;
+        position: absolute;
+        width: 100%;
+        z-index: 20;
+
+        @media (max-width: 45em) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 45em) and (min-resolution: 144dpi)  {
+            background: url("../../images/landscapesmall@2x.png") repeat-x center left transparent;
+            background-size: 694px 100px;
+        }
+
+        @include bp-min(45em) { // 720px
+            background: url("../../images/landscape.png") repeat-x center left transparent;
+            height: 173px;
+        }
+
+        @media (min-width: 45em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 45em) and (min-resolution: 144dpi) {
+            background: url("../../images/landscape@2x.png") repeat-x center left transparent;
+            background-size: 1200px 173px;
+        }
+
+    }
+
+    .header--balloon {
+        animation: bob 6s ease-in-out infinite;
+        background: url("../../images/balloon.png") no-repeat center center transparent;
+        background-size: cover;
+        height: 72px;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        width: 30px;
+        z-index: 30;
+
+        @include bp-min(45em) { // 720px
+            height: 96px;
+            width: 40px;
+        }
+
+        @include bp-min(75em) { // 1200px
+            right: 190px;
+        }
+    }
+
+    .header--roller {
+        animation: rollerSmall 4s 1s ease-out forwards;
+        bottom: 3px;
+        display: inline;
+        height: 26px;
+        left: 50px;
+        position: absolute;
+        width: 25px;
+        z-index: 40;
+
+        .roller--eyes {
+            animation: blink 6s ease-in-out infinite;
+        }
+
+        @include bp-min(45em) { // 720px
+            animation: roller 10s 1s ease-out forwards;
+            height: 39px;
+            left: 100px;
+            width: 38px;
+        }
+    }
+
+}
+
+// Blog Header
+.blog-header {
+    height: 230px;
+    position: relative;
+
+    @include bp-min(45em) { // 720px
+        height: 173px;
+    }
+
+    @include bp-max(45em) { // 720px
+        height: 100px;
+    }
+}
+
+.blog-header__pic {
+    height: 230px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    @include bp-min(45em) { // 720px
+        height: 173px;
+    }
+
+    @include bp-max(45em) { // 720px
+        height: 100px;
+    }
+}

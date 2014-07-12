@@ -1,0 +1,27 @@
+.footer {
+    background: $brand-red-dark;
+    border-bottom: 6px solid darken($brand-red-dark, 4%);
+    border-top: 6px solid darken($brand-red-dark, 4%);
+    color: #fff;
+    font-size: .9em;
+    margin-top: 3em;
+    text-align: center;
+
+    p {
+        margin: .79em 0;
+    }
+
+    a {
+        border-bottom: 1px solid $brand-red;
+        color: #fff;
+
+        &:hover, &:focus {
+            border-bottom: 1px solid $brand-yellow;
+            color: $brand-yellow;
+        }
+    }
+}
+
+.cssgradients .footer {
+    background-image: linear-gradient(30deg, $brand-red-dark, $brand-red-dark 50%, darken($brand-red-dark, 4%) 50%, darken($brand-red-dark, 4%) 100%);
+}

@@ -1,0 +1,31 @@
+<perch:form id="dm-cf" method="post" data-persist="garlic" app="perch_forms" role="form">
+    <perch:error for="all" type="general">
+        <p class="form__error">Oh dear. Something wasn’t quite right with your form. Not to worry though, the problems have been highlighted below. If you’re still having bother you can always drop me an email instead.</p>
+    </perch:error>
+    <fieldset class="input<perch:error for="name" type="required"> error</perch:error>">
+        <perch:label for="name">What’s your name? *<br><small>Now it’s personal.</small></perch:label>
+        <perch:input id="name" type="text" required="true" label="Name" placeholder="eg: Joe Bloggs" />
+        <perch:error for="name" type="required"><p class="input__error">Please let me know who I’m talking to.</p></perch:error>
+    </fieldset>
+    <fieldset class="input<perch:error for="email" type="required"> error</perch:error><perch:error for="email" type="format"> error</perch:error>">
+        <perch:label for="email">And your email? *<br><small>Open all hours!</small></perch:label>
+        <perch:input id="email" type="email" required="true" label="Email" placeholder="eg: joe@bloggs.com" />
+        <perch:error for="email" type="required"><p class="input__error">Please enter an email address.</p></perch:error>
+        <perch:error for="email" type="format"><p class="input__error">Please enter a valid email address.</p></perch:error>
+    </fieldset>
+    <fieldset class="input">
+        <perch:label for="phone">Phone number<br><small>Sometimes it’s just good to talk.</small></perch:label>
+        <perch:input id="phone" type="text" required="false" label="Phone" placeholder="eg: 0787 167 3085" />
+    </fieldset>
+    <fieldset class="input<perch:error for="budget" type="required"> error</perch:error>">
+        <perch:label for="budget">Your budget *<br><small>Projects usually start around £2<span class="kerning-sad">,</span>000.</small></perch:label>
+        <perch:input id="budget" type="text" required="true" label="Budget" placeholder="eg: &#163;3,500" />
+        <perch:error for="budget" type="required"><p class="input__error">Just making sure the project is feasible before we go into detail.</p></perch:error>
+    </fieldset>
+    <fieldset class="input<perch:error for="message" type="required"> error</perch:error>">
+        <perch:label for="message">Please provide some details *<br><small>As little or as much as you like.</small></perch:label>
+        <perch:input id="message" type="textarea" required="true" label="Message"></textarea>
+        <perch:error for="message" type="required"><p class="input__error">Please provide some details, just so I know what your project involves.</p></perch:error>
+    </fieldset>
+    <perch:input type="submit" class="btn--red" id="submit" value="Send Message!" />
+</perch:form>

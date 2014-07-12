@@ -1,0 +1,17 @@
+                <article>
+                    <header class="post-header">
+                        <h1><perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" /></h1>
+                        <span class="post-meta__author">Written by <a href="https://twitter.com/itsrab/" title="ItsRab on Twitter">Rab</a>, published on <perch:blog id="postDateTime" type="date" label="Date" time="true" format="%d %B %Y" divider-before="Meta information" />.</span>
+                    </header>
+                    <perch:blog id="postDescHTML" type="textarea" label="Post" order="2" editor="markitup" markdown="true" size="xxl autowidth" required="true" />
+                    <footer class="post-meta">
+                        <span class="post-meta__comments"><a class="btn--red" href="http://twitter.com/?status=@ItsRab">Comment on Twitter.</a></span>
+                    </footer>
+                </article>
+
+<perch:blog id="excerpt" type="textarea" label="Excerpt" markdown="true" order="3" suppress="true" size="s" />
+<perch:blog id="meta_title" type="text" html="true" label="Meta Title" order="4" suppress="true" />
+<perch:blog id="meta_desc" type="textarea" html="true" label="Meta Description" order="5" suppress="true" size="s" />
+<perch:blog id="image" type="image" width="50" label="Header Image "height="50" crop="true" order="6" suppress="true" />
+<perch:blog id="header_color" type="text" html="true" label="Header Font Colour" order="7" suppress="true" />
+<perch:blog id="header_bg_color" type="text" html="true" label="Header Background Colour"order="8" suppress="true" />

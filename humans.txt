@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Rab Ritchie -- Web Designer and boss -- @ItsRab
+
+# THANKS
+
+    Andrew Clark
+    Ashley Baxter
+    Brett Farr
+    Chris Coyier
+    Fabio Carneiro
+    Harry Roberts
+    Jack Barber
+    Luke Burford
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr, Skrollr, Typekit

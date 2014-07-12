@@ -1,0 +1,47 @@
+// Clouds
+@keyframes clouds {
+    0% {transform: translateX();}
+    50% {transform: translateX(100%);}
+    100% {transform: translateX(0);}
+}
+
+// Roller: roll in monster
+@keyframes roller {
+    0% {transform: translate(0, 50px) rotate(0turn);}
+    5% {transform: translate(10px, -20px) rotate(.5turn);}
+    8% {transform: translate(14px, 0) rotate(.7turn);}
+    100% {transform: translate(300px, 0) rotate(5turn);}
+}
+
+// Roller: roll in monster (small)
+@keyframes rollerSmall {
+    0% {transform: translate(0, 35px) rotate(0turn);}
+    10% {transform: translate(5px, -10px) rotate(.3turn);}
+    15% {transform: translate(7px, 0) rotate(.4turn);}
+    100% {transform: translate(80px, 0) rotate(2turn);}
+}
+
+// Bob: little floating bob around guy
+@keyframes bob {
+    0% {transform: translateY(0) rotate(0);}
+    50% {transform: translateY(-30px) rotate(10deg);}
+    100% {transform: translateY(0) rotate(0);}
+}
+
+// General Animations
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeDown {
+    0% {opacity: 0; transform: translateY(-30px);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+
+// Winking, used in header roller
+@keyframes blink {
+    0% {fill: #fff;}
+    1% {fill: #424244;}
+    3% {fill: #fff;}
+}

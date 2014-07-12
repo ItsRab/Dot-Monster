@@ -1,0 +1,32 @@
+// Reds
+$brand-red: #ac383d;
+$brand-red-light: lighten($brand-red, 10%);
+$brand-red-dark: darken($brand-red, 10%);
+$brand-red-darker: darken($brand-red, 15%);
+
+// Greens
+$brand-green: #91a671;
+$brand-green-light: lighten($brand-green, 10%);
+$brand-green-dark: darken($brand-green, 10%);
+$brand-green-darker: darken($brand-green, 15%);
+
+// Yellows
+$brand-yellow: #f1c40f;
+$brand-yellow-light: lighten($brand-yellow, 10%);
+$brand-yellow-dark: darken($brand-yellow, 10%);
+$brand-yellow-darker: darken($brand-yellow, 15%);
+
+// Neutrals
+$brand-dark: #333;
+$brand-mid: #666;
+$brand-v-light: #ddd;
+$brand-v-light-light: lighten($brand-v-light, 10%);
+$brand-v-light-dark: darken($brand-v-light, 10%);
+$brand-v-light-darker: darken($brand-v-light, 15%);
+
+// Fonts
+$brand-font-body: "ff-tisa-web-pro", serif;
+$brand-font-head: "freight-sans-pro", sans-serif;
+
+// Radius size
+$round-radius: 6px;

@@ -1,0 +1,43 @@
+// For max-width media queries
+// @include bp-max(40em) {
+//     .selector {
+//         border: 1px solid red;
+//     }
+// }
+@mixin bp-max($point) {
+    @media screen and (max-width: $point)
+    {
+        @content;
+    }
+}
+
+// For min-width media queries
+// @include bp-min(40em) {
+//     .selector {
+//         width: 100%;
+//     }
+// }
+@mixin bp-min($point) {
+    @media screen and (min-width: $point)
+    {
+        @content;
+    }
+}
+
+// Generate navigation gradients
+// @include nav-grad($top-color, $bottom-color, $text-color)
+@mixin nav-grad($top-color, $bottom-color, $text-color) {
+    background-color: $top-color;
+    background: -webkit-linear-gradient(to bottom, $top-color 0%, $bottom-color 100%);
+    background: linear, to bottom, $top-color 0%, $bottom-color 100%;
+    background: -moz-linear-gradient(top, $top-color 0%, $bottom-color 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $top-color), color-stop(100%, $bottom-color));
+    background: -webkit-linear-gradient(top, $top-color 0%, $bottom-color 100%);
+    background: -o-linear-gradient(top, $top-color 0%, $bottom-color 100%);
+    background: -ms-linear-gradient(top, $top-color 0%, $bottom-color 100%);
+    background: linear, to bottom, $top-color 0%, $bottom-color 100%;
+    border: 1px solid darken($bottom-color, 5%);
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    color: $text-color;
+}

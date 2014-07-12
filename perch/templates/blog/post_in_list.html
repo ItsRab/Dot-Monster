@@ -1,0 +1,21 @@
+                <article>
+                    <header class="post-header">
+                        <h2><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a></h2>
+                        <span class="post-meta__author">Written by <a href="https://twitter.com/itsrab/" title="ItsRab on Twitter">Rab</a>, published on <perch:blog id="postDateTime" type="date" label="Date" time="true" format="%d %B %Y" divider-before="Meta information" />.</span>
+                    </header>
+                    <perch:blog id="excerpt" type="textarea" textile="true" />
+                </article>
+
+                <perch:after>
+                    <perch:if exists="paging">
+                        <div class="paging">
+                            <perch:if exists="not_first_page">
+                                <a class="btn--red" href="<perch:blog id="prev_url" encode="false" />">&larr;</a>
+                            </perch:if>
+                            <p><strong>Page <perch:blog id="current_page" /> of <perch:blog id="number_of_pages" /></strong></p>
+                            <perch:if exists="not_last_page">
+                                <a class="btn--red" href="<perch:blog id="next_url" encode="false" />">&rarr;</a>
+                            </perch:if>
+                        </div>
+                    </perch:if>
+                </perch:after>

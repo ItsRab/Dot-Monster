@@ -1,0 +1,96 @@
+.navigation ul {
+    font-size: 0.85em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    @include bp-min(31.25em) { // 500px
+        font-size: 1em;
+    }
+}
+
+.navigation li {
+    float: left;
+    width: 25%;
+}
+
+%navigation__a--base {
+    display: block;
+    font-family: "freight-sans-pro", sans-serif;
+    font-size: 1em;
+    padding: 4px 0 6px;
+    transition: all .3s ease;
+}
+
+.navigation__a {
+    @extend %navigation__a--base;
+
+    background-color: $brand-green;
+    border: 1px solid darken($brand-green-dark, 5%);
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    color: #fff;
+
+    &:hover, &:focus {
+        background-color: $brand-green-dark;
+        border: 1px solid darken($brand-green-darker, 5%);
+        border-bottom-width: 2px;
+        border-top-width: 2px;
+        color: $brand-yellow;
+    }
+}
+
+.navigation__a--hire {
+    @extend %navigation__a--base;
+
+        background-color: $brand-red;
+        border: 1px solid darken($brand-red-dark, 5%);
+        border-bottom-width: 2px;
+        border-top-width: 2px;
+        color: #fff;
+
+    &:hover, &:focus {
+        background-color: $brand-red-dark;
+        border: 1px solid darken($brand-red-darker, 5%);
+        border-bottom-width: 2px;
+        border-top-width: 2px;
+        color: $brand-yellow;
+    }
+}
+
+.navigation__a--active {
+    @extend %navigation__a--base;
+
+    background-color: $brand-green-dark;
+    border: 1px solid darken($brand-green-darker, 5%);
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    color: $brand-yellow;
+
+    &:hover, &:focus {
+        background-color: $brand-green-dark;
+        border: 1px solid darken($brand-green-darker, 5%);
+        border-bottom-width: 2px;
+        border-top-width: 2px;
+        color: $brand-yellow;
+    }
+}
+
+.navigation__a--hire-active {
+    @extend %navigation__a--base;
+
+    background-color: $brand-red-dark;
+    border: 1px solid darken($brand-red-darker, 5%);
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    color: $brand-yellow;
+
+    &:hover, &:focus {
+        background-color: $brand-red-dark;
+        border: 1px solid darken($brand-red-darker, 5%);
+        border-bottom-width: 2px;
+        border-top-width: 2px;
+        color: $brand-yellow;
+    }
+}

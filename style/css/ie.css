@@ -1,0 +1,8 @@
+.portfolio-item__img {
+    height: 420px;
+}
+
+.portfolio-list__bg--1, .portfolio-list__bg--2, .portfolio-list__bg--3, .portfolio-list__bg--4 {
+    height: 300px;
+    width: 300px;
+}
