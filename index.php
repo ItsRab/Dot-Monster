@@ -1,6 +1,6 @@
 <?php // Page specific variables and pull in the header
     $page_title = "Dot Monster Web Design and Development in Stirling, Scotland";
-    $page_desc = "I’m Rab, a Freelance website designer living and working in the Stirling, Central Scotland. Making custom websites using Perch, WordPress, you name it.";
+    $page_desc = "I’m Rab, a Freelance website designer working in the Stirling area, Central Scotland. Making custom websites using Perch, WordPress, you name it.";
     $current_page = "home";
     include("_header.php");
 ?>
