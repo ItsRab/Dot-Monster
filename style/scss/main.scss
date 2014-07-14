@@ -199,7 +199,7 @@ blockquote {
 
     &:before {
         color: #ddd;
-        content: open-quote;
+        content: "\201C";
         font-size: 4em;
         line-height: .1em;
         margin-right: .1em;
