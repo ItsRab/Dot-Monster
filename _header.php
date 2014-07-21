@@ -30,7 +30,7 @@
         <meta property="og:url" content="<?php echo $page_url ?>" />
         <meta property="og:site_name" content="Dot Monster" />
         <meta property="og:image" content="/images/dotmonster.png" />
-        <meta name="google-site-verification" content="gWkaa68l8AvSeyL-KzEAidxXNv6Ef436aGyV0-V2Mns" />
+	<meta name="google-site-verification" content="CLKX6VTIFLyBoWyPXymQNE2TcDLpvN6dZ5DdW05H8E4" />
 
         <!-- Title -->
         <title><?php echo $page_title ?></title>
