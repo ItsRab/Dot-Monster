@@ -560,6 +560,13 @@ h1, h2, h3, h4, .lead {
     }
 }
 
+.btn--subtle {
+    @extend .btn--red;
+
+    font-size: .85em;
+    opacity: .8;
+}
+
 .btn--grouped {
     margin: 1em;
 }
