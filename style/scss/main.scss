@@ -431,7 +431,7 @@ h1, h2, h3, h4, .lead {
 }
 
 // Buttons
-.btn {
+%btn {
     border-radius: $round-radius;
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, .15);
     cursor: pointer;
@@ -459,7 +459,7 @@ h1, h2, h3, h4, .lead {
 }
 
 .btn--green {
-    @extend .btn;
+    @extend %btn;
 
     background-color: $brand-green;
     background: -webkit-linear-gradient(to bottom,$brand-green 90%,$brand-green-dark 90%,$brand-green-dark 100%);
@@ -493,7 +493,7 @@ h1, h2, h3, h4, .lead {
 }
 
 .btn--red {
-    @extend .btn;
+    @extend %btn;
 
     background-color: $brand-red;
     background: -webkit-linear-gradient(to bottom,$brand-red 90%,$brand-red-dark 90%,$brand-red-dark 100%);
@@ -527,7 +527,7 @@ h1, h2, h3, h4, .lead {
 }
 
 .btn--yellow {
-    @extend .btn;
+    @extend %btn;
 
     background-color: $brand-yellow;
     background: -webkit-linear-gradient(to bottom,$brand-yellow 90%,$brand-yellow-dark 90%,$brand-yellow-dark 100%);
@@ -558,6 +558,10 @@ h1, h2, h3, h4, .lead {
     &:active {
         color: #eee;
     }
+}
+
+.btn--grouped {
+    margin: 1em;
 }
 
 // Boxes
@@ -854,8 +858,4 @@ input:focus::-webkit-input-placeholder {
     color: #777;
     font-size: .85em;
     margin: 2em 0;
-
-    span {
-        display: block;
-    }
 }
