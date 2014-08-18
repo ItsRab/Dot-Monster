@@ -603,7 +603,7 @@ h1, h2, h3, h4, .lead {
     padding: 0;
 
     div[class*='portfolio-list__bg--'] {
-        background-position: center center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         // Background-size polyfill

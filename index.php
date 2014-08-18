@@ -18,9 +18,9 @@
                 <ul class="portfolio-list clearfix">
                     <li class="portfolio-list__item">
                         <div class="portfolio-list__bg--1" style="background-image: url('/images/portfolio/MEAT-spec.jpg'); -webkit-background-size: cover; background-size: cover;">
-                            <a href="/design/">
+                            <a href="/design/mock/meat">
                                 <div class="portfolio-list__details">
-                                    <p>MEAT Bar Spec Work</p>
+                                    <p>MEAT Spec Work</p>
                                 </div><!-- .portfolio-list__details -->
                             </a>
                         </div><!-- .portfolio-list__bg -->

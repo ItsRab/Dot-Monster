@@ -1,0 +1,150 @@
+body {
+    color: $brand-dark;
+    font-family: $brand-font-body;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    position: relative;
+}
+
+h1, h2, h3, h4 {
+    font-family: $brand-font-head;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 1em 0 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1.61em;
+}
+
+h3 {
+    font-size: 1.278em;
+}
+
+p {
+    margin: .6em 0;
+}
+
+em {
+    font-style: italic;
+    font-weight: 400;
+}
+
+strong {
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    color: $brand-primary;
+    text-decoration: none;
+    transition: all .3s ease;
+
+    &:hover, &:focus {
+        border-bottom: 1px solid $brand-secondary;
+        color: $brand-secondary;
+    }
+}
+
+h1, h2, h3, h4 {
+    text-rendering: optimizeLegibility;
+}
+
+@include bp-min(25em) { // 400px
+    body {
+        font-size: 85%;
+    }
+}
+
+@include bp-min(31.25em) { // 500px
+    body {
+        font-size: 90%;
+    }
+}
+
+@include bp-min(43.75em) { // 700px
+    body {
+        font-size: 100%;
+    }
+
+    blockquote {
+        margin-left: -10%;
+        width: 120%;
+    }
+}
+
+@include bp-min(53.125em) { // 850px
+    body {
+        font-size: 110%;
+    }
+}
+
+@include bp-min(62.5em) { // 1000px
+    body {
+        font-size: 115%;
+    }
+}
+
+@include bp-min(68.75em) { // 1100px
+    body {
+        font-size: 120%;
+    }
+}
+
+@include bp-min(90.625em) { // 1450 px
+    body {
+        font-size: 130%;
+    }
+}
+
+.lead {
+    color: #444;
+    font-size: 1.1em;
+}
+
+.emp {
+    color: $brand-primary;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.header__main {
+    color: $brand-primary;
+    margin: 0;
+    text-shadow: 2px 2px 2px #111;
+    text-transform: uppercase;
+}
+
+.header__sub {
+    color: $brand-secondary;
+    margin: 0;
+    text-shadow: 2px 2px 2px #111;
+
+    &:after {
+        border-top: 2px solid #4e200f;
+        content: "";
+        display: inline-block;
+        height: .25em;
+        margin: 0 .5em;
+        width: 2em;
+    }
+
+    @include bp-min(75em) { // 1200px
+        &:before {
+            border-top: 2px solid #4e200f;
+            content: "";
+            display: inline-block;
+            height: .25em;
+            margin: 0 .5em;
+            width: 2em;
+        }
+    }
+}

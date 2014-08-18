@@ -28,13 +28,13 @@
                 <div class="portfolio-container">
                     <div class="portfolio-item clearfix">
                         <div class="portfolio-item__constraint">
-                            <img src="/images/portfolio/MEAT-spec.jpg" class="portfolio-item__img left" alt="MEAT Bar">
-                            <h2>MEAT Bar</h2>
-                            <p class="lead">Speculative work for my favourite place for meat!</p>
-                            <p>I wanted to play around with how I would have designed their website and put together this mock up of some ideas in about an hour.</p>
-                            <p>This design was self initiated and I’ve had no contact with the MEAT bar. Photo credit to <a href="https://www.flickr.com/photos/theboyfast/9625795242">Ed Swift</a> and <a href="https://www.flickr.com/photos/kriskesiak/9016520060">Kris Kesiak</a> on Flickr.</p>
+                            <img src="/images/portfolio/MEAT-spec.jpg" class="portfolio-item__img left" alt="MEAT">
+                            <h2>MEAT</h2>
+                            <p class="lead">Speculative work, inspired by for my favourite place for meat!</p>
+                            <p>I wanted to play around with how I would have designed the MEAT bar website and put together this mock up of some ideas in about an afternoon.</p>
+                            <p>This design was self initiated and I’ve had no contact with the MEAT bar.</p>
                             <p>If you happen to be from the MEAT bar, hey, <a href="/hire/">let’s chat</a>. I’ll work for steak.</p>
-                            <a href="http://themeatbar.co.uk/" class="btn btn--green">Visit Their Website</a>
+                            <a href="/design/mock/meat" class="btn btn--green">View the Demo</a>
                         </div><!-- .portfolio-item__constraint -->
                     </div>
                     <div class="portfolio-item clearfix">
