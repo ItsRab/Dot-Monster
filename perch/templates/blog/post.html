@@ -1,9 +1,9 @@
-                <article>
+                <article itemscope itemtype="http://schema.org/Article">
                     <header class="post-header">
-                        <h1><perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" /></h1>
-                        <span class="post-meta__author">Written by <a href="https://twitter.com/itsrab/" title="ItsRab on Twitter">Rab</a>, published on <perch:blog id="postDateTime" type="date" label="Date" time="true" format="%d %B %Y" divider-before="Meta information" />.</span>
+                        <h1 itemprop="name headline"><perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" /></h1>
+                        <span class="post-meta__author">Written by <a href="https://twitter.com/itsrab/" title="ItsRab on Twitter"><span itemprop="author creator">Rab</span></a>, published on <span itemprop="datePublished dateCreated" content="<perch:blog id="postDateTime" type="date" label="Date" time="false" format="c" />"><perch:blog id="postDateTime" type="date" label="Date" time="true" format="%d %B %Y" divider-before="Meta information" /></span>.</span>
                     </header>
-                    <perch:blog id="postDescHTML" type="textarea" label="Post" order="2" editor="markitup" markdown="true" size="xxl autowidth" required="true" />
+                    <div itemprop="articleBody"><perch:blog id="postDescHTML" type="textarea" label="Post" order="2" editor="markitup" markdown="true" size="xxl autowidth" required="true" /></div>
                     <footer class="post-meta">
                         <span class="post-meta__comments"><a class="btn--red" href="http://twitter.com/?status=@ItsRab">Comment on Twitter</a></span>
                         <span class="post-meta__hire"><a class="btn--green btn--grouped" href="/hire/">Liked this? Hire me!</a></span>
