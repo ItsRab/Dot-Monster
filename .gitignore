@@ -2,6 +2,11 @@
 config.codekit
 .sass-cache
 
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+
 # Other
 .DS_Store
 .DS_Store?
