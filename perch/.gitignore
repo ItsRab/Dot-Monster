@@ -1,0 +1,6 @@
+# Ignore everything to do with perch in this directory
+*
+
+# Except this file, and the templates
+!.gitignore
+!templates/
