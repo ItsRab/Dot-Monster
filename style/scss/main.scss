@@ -567,8 +567,19 @@ h1, h2, h3, h4, .lead {
     opacity: .8;
 }
 
-.btn--grouped {
-    margin: 1em;
+a[class*='btn--group-'] {
+    display: block;
+
+    @include bp-min(30em) { // 480px
+        display: inline-block;
+    }
+}
+
+.btn--group-first {
+
+    @include bp-min(30em) { // 480px
+        margin-right: 1em;
+    }
 }
 
 // Boxes
