@@ -12,49 +12,22 @@
                 <div class="constraint">
                     <h1>I’m Rab, and I <span contenteditable="true">make websites.</span></h1>
                     <p class="lead"><a href="/hire/">Work with me</a> to strengthen your brand through a flexible, useful and creative website design. Together we’ll convert your customers into your followers.</p>
-                </div><!-- .constraint -->
 
-                <?php // Inline background images so we can generate the src image from PHP ?>
-                <ul class="portfolio-list clearfix">
-                    <li class="portfolio-list__item">
-                        <div class="portfolio-list__bg--1" style="background-image: url('/images/portfolio/MEAT-spec.jpg'); -webkit-background-size: cover; background-size: cover;">
-                            <a href="/design/mock/meat">
-                                <div class="portfolio-list__details">
-                                    <p>MEAT Spec Work</p>
-                                </div><!-- .portfolio-list__details -->
-                            </a>
-                        </div><!-- .portfolio-list__bg -->
-                    </li>
-                    <li class="portfolio-list__item">
-                        <div class="portfolio-list__bg--2" style="background: url('/images/portfolio/music-spec.jpg'); -webkit-background-size: cover; background-size: cover;">
-                            <a href="/design/">
-                                <div class="portfolio-list__details">
-                                    <p>Music Player Spec Work</p>
-                                </div><!-- .portfolio-list__details -->
-                            </a>
-                        </div><!-- .portfolio-list__bg -->
-                    </li>
-                    <li class="portfolio-list__item">
-                        <div class="portfolio-list__bg--3" style="background: url('/images/portfolio/plumtree.jpg'); -webkit-background-size: cover; background-size: cover;">
-                            <a href="http://theplumtree.uk.com/">
-                                <div class="portfolio-list__details">
-                                    <p>The Plum Tree, Glasgow</p>
-                                </div><!-- .portfolio-list__details -->
-                            </a>
-                        </div><!-- .portfolio-list__bg -->
-                    </li>
-                    <li class="portfolio-list__item">
-                        <div class="portfolio-list__bg--4" style="background: url('/images/portfolio/kyles.jpg'); -webkit-background-size: cover; background-size: cover;">
-                            <a href="http://kyles-on-scotland.co.uk/">
-                                <div class="portfolio-list__details">
-                                    <p>Kyles on Scotland</p>
-                                </div><!-- .portfolio-list__details -->
-                            </a>
-                        </div><!-- .portfolio-list__bg -->
-                    </li>
-                </ul>
+                    <ul class="img-list break-out clearfix">
+                        <li class="img-list__item--4">
+                            <a href="/design/case-study/omalley/"><img src="/images/portfolio/omalley-home.jpg" class="image-list__img" alt="O’Malley Property Homepage"></a>
+                        </li>
+                        <li class="img-list__item--4">
+                            <a href="/design/case-study/omalley/"><img src="/images/portfolio/omalley-property-list.jpg" class="image-list__img" alt="O’Malley Property Listings"></a>
+                        </li>
+                        <li class="img-list__item--4">
+                            <a href="/design"><img src="/images/portfolio/meat-home.jpg" class="image-list__img" alt="MEAT Home"></a>
+                        </li>
+                        <li class="img-list__item--4">
+                            <a href="/photos"><img src="/images/photos/tree-shed.jpg" class="image-list__img" alt="A Tree and a Shet at Loch Tay, Scotland"></a>
+                        </li>
+                    </ul>
 
-                <div class="constraint">
                     <blockquote>
                         <p>Great communication. A pleasure to do business with. Hope to deal with you again. Miss Athletic hopes to welcome you back very soon. Perfect! Thank you. A+</p>
                         <footer>
