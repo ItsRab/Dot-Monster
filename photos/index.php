@@ -22,7 +22,7 @@
                     <p>If you think we might be able to work together, <a href="/hire">hit me up</a> and we can chat about your project and photos! In the meantime, here’s some recent photos from my Instagram feed.</p>
                     <ul class="img-list break-out clearfix">
                         <li class="img-list__item">
-                            <a href="http://instagram.com/p/ymyV93hQPx/"><img src="/images/photos/tree-shed.jpg" class="image-list__img" alt="A Tree and a Shet at Loch Tay, Scotland"></a>
+                            <a href="http://instagram.com/p/ymyV93hQPx/"><img src="/images/photos/tree-shed.jpg" class="image-list__img" alt="A Tree and a Shed at Loch Tay, Scotland"></a>
                         </li>
                         <li class="img-list__item">
                             <a href="http://instagram.com/p/yk4hGYhQDn/"><img src="/images/photos/weamo.jpg" class="image-list__img" alt="Weamo at Whosit &amp; Whatsit, Newcastle"></a>

@@ -24,7 +24,7 @@
                             <a href="/design"><img src="/images/portfolio/meat-home.jpg" class="image-list__img" alt="MEAT Home"></a>
                         </li>
                         <li class="img-list__item--4">
-                            <a href="/photos"><img src="/images/photos/tree-shed.jpg" class="image-list__img" alt="A Tree and a Shet at Loch Tay, Scotland"></a>
+                            <a href="/photos"><img src="/images/photos/tree-shed.jpg" class="image-list__img" alt="A Tree and a Shed at Loch Tay, Scotland"></a>
                         </li>
                     </ul>
 
