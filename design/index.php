@@ -48,7 +48,7 @@
                         </ul>
 
                         <p><a href="/design/case-study/omalley" class="btn btn--red btn--group-first">Read the Case Study</a>
-                        <a href="http://omalleyproperty.com/" class="btn btn--green btn--group-last">Visit the new O’Malley Property Website</a></p>
+                        <a href="http://omalleyproperty.com/" class="btn btn--green btn--group-last">Visit the New Website</a></p>
                     </div><!-- .constraint -->
                 </div><!-- .portfolio-item -->
 
