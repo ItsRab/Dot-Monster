@@ -46,7 +46,7 @@
                 </div><!-- .constraint -->
 
                 <div class="constraint">
-                    <p>We’ll form a team, bouncing questions, ideas and suggestions off each other. There will be no “ta-da” moment at the end of then project where you get to see the website for the first time—you’ll play a key part of the design process right from the off.</p>
+                    <p>We’ll form a team, bouncing questions, ideas and suggestions off each other. There will be no “ta-da” moment at the end of the project where you get to see the website for the first time—you’ll play a key part of the design process right from the off.</p>
                     <p>I don’t just colour in; I code too. You won’t find any static visuals here. You’ll get living, responsive designs and components right in your browser, on any device.</p>
                     <a href="/hire/" class="btn--red">Hire Me</a>
                 </div><!-- .constraint -->
